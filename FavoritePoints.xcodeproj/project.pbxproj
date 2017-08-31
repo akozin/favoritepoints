@@ -9,29 +9,71 @@
 /* Begin PBXBuildFile section */
 		6F0BAFEC1F51E2DD0038ACCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BAFEB1F51E2DD0038ACCD /* main.m */; };
 		6F0BAFEF1F51E2DD0038ACCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BAFEE1F51E2DD0038ACCD /* AppDelegate.m */; };
-		6F0BAFF21F51E2DD0038ACCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BAFF11F51E2DD0038ACCD /* ViewController.m */; };
 		6F0BAFF51F51E2DD0038ACCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0BAFF31F51E2DD0038ACCD /* Main.storyboard */; };
-		6F0BAFF81F51E2DD0038ACCD /* FavoritePoints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BAFF61F51E2DD0038ACCD /* FavoritePoints.xcdatamodeld */; };
-		6F0BAFFA1F51E2DD0038ACCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0BAFF91F51E2DD0038ACCD /* Assets.xcassets */; };
 		6F0BAFFD1F51E2DD0038ACCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0BAFFB1F51E2DD0038ACCD /* LaunchScreen.storyboard */; };
+		6F1951551F52DB6200CA5971 /* PSFDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951541F52DB6200CA5971 /* PSFDataController.m */; };
+		6F1951581F52F15D00CA5971 /* PSFModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951571F52F15D00CA5971 /* PSFModels.m */; };
+		6F1951631F5323E300CA5971 /* FavoritePointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951621F5323E300CA5971 /* FavoritePointsTests.m */; };
+		6F19516E1F54297900CA5971 /* PSFMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19516D1F54297900CA5971 /* PSFMapViewController.m */; };
+		6F1951721F542AC700CA5971 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1951711F542AC700CA5971 /* MapKit.framework */; };
+		6F1951751F542E5100CA5971 /* PSFLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951741F542E5100CA5971 /* PSFLocationManager.m */; };
+		6F1951771F545DBA00CA5971 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1951761F545DBA00CA5971 /* Media.xcassets */; };
+		6F19517A1F55682900CA5971 /* PSFAddPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951791F55682900CA5971 /* PSFAddPointViewController.m */; };
+		6F19517E1F55984500CA5971 /* FavoritePoints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F19517C1F55984500CA5971 /* FavoritePoints.xcdatamodeld */; };
+		6F1951811F55E0F600CA5971 /* PSFPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951801F55E0F600CA5971 /* PSFPointAnnotation.m */; };
+		6F1951841F57E52A00CA5971 /* PSFPointsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1951831F57E52A00CA5971 /* PSFPointsTableViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1951651F5323E300CA5971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0BAFDF1F51E2DD0038ACCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0BAFE61F51E2DD0038ACCD;
+			remoteInfo = FavoritePoints;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6F0BAFE71F51E2DD0038ACCD /* FavoritePoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0BAFEB1F51E2DD0038ACCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F0BAFED1F51E2DD0038ACCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F0BAFEE1F51E2DD0038ACCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F0BAFF01F51E2DD0038ACCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F0BAFF11F51E2DD0038ACCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F0BAFF41F51E2DD0038ACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F0BAFF71F51E2DD0038ACCD /* FavoritePoints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritePoints.xcdatamodel; sourceTree = "<group>"; };
-		6F0BAFF91F51E2DD0038ACCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0BAFFC1F51E2DD0038ACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0BAFFE1F51E2DD0038ACCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1951531F52DB6200CA5971 /* PSFDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFDataController.h; sourceTree = "<group>"; };
+		6F1951541F52DB6200CA5971 /* PSFDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFDataController.m; sourceTree = "<group>"; };
+		6F1951561F52F15D00CA5971 /* PSFModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFModels.h; sourceTree = "<group>"; };
+		6F1951571F52F15D00CA5971 /* PSFModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFModels.m; sourceTree = "<group>"; };
+		6F1951601F5323E300CA5971 /* FavoritePointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePointsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1951621F5323E300CA5971 /* FavoritePointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePointsTests.m; sourceTree = "<group>"; };
+		6F1951641F5323E300CA5971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F19516C1F54297900CA5971 /* PSFMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFMapViewController.h; sourceTree = "<group>"; };
+		6F19516D1F54297900CA5971 /* PSFMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFMapViewController.m; sourceTree = "<group>"; };
+		6F1951711F542AC700CA5971 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6F1951731F542E5100CA5971 /* PSFLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFLocationManager.h; sourceTree = "<group>"; };
+		6F1951741F542E5100CA5971 /* PSFLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFLocationManager.m; sourceTree = "<group>"; };
+		6F1951761F545DBA00CA5971 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6F1951781F55682900CA5971 /* PSFAddPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFAddPointViewController.h; sourceTree = "<group>"; };
+		6F1951791F55682900CA5971 /* PSFAddPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFAddPointViewController.m; sourceTree = "<group>"; };
+		6F19517D1F55984500CA5971 /* FavoritePoints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritePoints.xcdatamodel; sourceTree = "<group>"; };
+		6F19517F1F55E0F600CA5971 /* PSFPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFPointAnnotation.h; sourceTree = "<group>"; };
+		6F1951801F55E0F600CA5971 /* PSFPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFPointAnnotation.m; sourceTree = "<group>"; };
+		6F1951821F57E52A00CA5971 /* PSFPointsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFPointsTableViewController.h; sourceTree = "<group>"; };
+		6F1951831F57E52A00CA5971 /* PSFPointsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFPointsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6F0BAFE41F51E2DD0038ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1951721F542AC700CA5971 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F19515D1F5323E300CA5971 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,7 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				6F0BAFE91F51E2DD0038ACCD /* FavoritePoints */,
+				6F1951611F5323E300CA5971 /* FavoritePointsTests */,
 				6F0BAFE81F51E2DD0038ACCD /* Products */,
+				6F1951701F542AC600CA5971 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				6F0BAFE71F51E2DD0038ACCD /* FavoritePoints.app */,
+				6F1951601F5323E300CA5971 /* FavoritePointsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,15 +105,15 @@
 		6F0BAFE91F51E2DD0038ACCD /* FavoritePoints */ = {
 			isa = PBXGroup;
 			children = (
+				6F19516F1F54298300CA5971 /* Map */,
+				6F1951521F52DB1800CA5971 /* Core Data stack */,
 				6F0BAFED1F51E2DD0038ACCD /* AppDelegate.h */,
 				6F0BAFEE1F51E2DD0038ACCD /* AppDelegate.m */,
-				6F0BAFF01F51E2DD0038ACCD /* ViewController.h */,
-				6F0BAFF11F51E2DD0038ACCD /* ViewController.m */,
 				6F0BAFF31F51E2DD0038ACCD /* Main.storyboard */,
-				6F0BAFF91F51E2DD0038ACCD /* Assets.xcassets */,
+				6F1951761F545DBA00CA5971 /* Media.xcassets */,
 				6F0BAFFB1F51E2DD0038ACCD /* LaunchScreen.storyboard */,
 				6F0BAFFE1F51E2DD0038ACCD /* Info.plist */,
-				6F0BAFF61F51E2DD0038ACCD /* FavoritePoints.xcdatamodeld */,
+				6F19517C1F55984500CA5971 /* FavoritePoints.xcdatamodeld */,
 				6F0BAFEA1F51E2DD0038ACCD /* Supporting Files */,
 			);
 			path = FavoritePoints;
@@ -80,6 +125,51 @@
 				6F0BAFEB1F51E2DD0038ACCD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F1951521F52DB1800CA5971 /* Core Data stack */ = {
+			isa = PBXGroup;
+			children = (
+				6F1951531F52DB6200CA5971 /* PSFDataController.h */,
+				6F1951541F52DB6200CA5971 /* PSFDataController.m */,
+				6F1951561F52F15D00CA5971 /* PSFModels.h */,
+				6F1951571F52F15D00CA5971 /* PSFModels.m */,
+			);
+			name = "Core Data stack";
+			sourceTree = "<group>";
+		};
+		6F1951611F5323E300CA5971 /* FavoritePointsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1951621F5323E300CA5971 /* FavoritePointsTests.m */,
+				6F1951641F5323E300CA5971 /* Info.plist */,
+			);
+			path = FavoritePointsTests;
+			sourceTree = "<group>";
+		};
+		6F19516F1F54298300CA5971 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6F19516C1F54297900CA5971 /* PSFMapViewController.h */,
+				6F19516D1F54297900CA5971 /* PSFMapViewController.m */,
+				6F1951731F542E5100CA5971 /* PSFLocationManager.h */,
+				6F1951741F542E5100CA5971 /* PSFLocationManager.m */,
+				6F1951781F55682900CA5971 /* PSFAddPointViewController.h */,
+				6F1951791F55682900CA5971 /* PSFAddPointViewController.m */,
+				6F19517F1F55E0F600CA5971 /* PSFPointAnnotation.h */,
+				6F1951801F55E0F600CA5971 /* PSFPointAnnotation.m */,
+				6F1951821F57E52A00CA5971 /* PSFPointsTableViewController.h */,
+				6F1951831F57E52A00CA5971 /* PSFPointsTableViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		6F1951701F542AC600CA5971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F1951711F542AC700CA5971 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +192,24 @@
 			productReference = 6F0BAFE71F51E2DD0038ACCD /* FavoritePoints.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6F19515F1F5323E300CA5971 /* FavoritePointsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1951671F5323E300CA5971 /* Build configuration list for PBXNativeTarget "FavoritePointsTests" */;
+			buildPhases = (
+				6F19515C1F5323E300CA5971 /* Sources */,
+				6F19515D1F5323E300CA5971 /* Frameworks */,
+				6F19515E1F5323E300CA5971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1951661F5323E300CA5971 /* PBXTargetDependency */,
+			);
+			name = FavoritePointsTests;
+			productName = FavoritePointsTests;
+			productReference = 6F1951601F5323E300CA5971 /* FavoritePointsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +223,12 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = LW3PL5B242;
 						ProvisioningStyle = Automatic;
+					};
+					6F19515F1F5323E300CA5971 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LW3PL5B242;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F0BAFE61F51E2DD0038ACCD;
 					};
 				};
 			};
@@ -132,6 +246,7 @@
 			projectRoot = "";
 			targets = (
 				6F0BAFE61F51E2DD0038ACCD /* FavoritePoints */,
+				6F19515F1F5323E300CA5971 /* FavoritePointsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,8 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0BAFFD1F51E2DD0038ACCD /* LaunchScreen.storyboard in Resources */,
-				6F0BAFFA1F51E2DD0038ACCD /* Assets.xcassets in Resources */,
+				6F1951771F545DBA00CA5971 /* Media.xcassets in Resources */,
 				6F0BAFF51F51E2DD0038ACCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F19515E1F5323E300CA5971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +276,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F0BAFF81F51E2DD0038ACCD /* FavoritePoints.xcdatamodeld in Sources */,
-				6F0BAFF21F51E2DD0038ACCD /* ViewController.m in Sources */,
+				6F1951551F52DB6200CA5971 /* PSFDataController.m in Sources */,
 				6F0BAFEF1F51E2DD0038ACCD /* AppDelegate.m in Sources */,
+				6F1951751F542E5100CA5971 /* PSFLocationManager.m in Sources */,
 				6F0BAFEC1F51E2DD0038ACCD /* main.m in Sources */,
+				6F1951811F55E0F600CA5971 /* PSFPointAnnotation.m in Sources */,
+				6F1951581F52F15D00CA5971 /* PSFModels.m in Sources */,
+				6F19517A1F55682900CA5971 /* PSFAddPointViewController.m in Sources */,
+				6F19516E1F54297900CA5971 /* PSFMapViewController.m in Sources */,
+				6F19517E1F55984500CA5971 /* FavoritePoints.xcdatamodeld in Sources */,
+				6F1951841F57E52A00CA5971 /* PSFPointsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F19515C1F5323E300CA5971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1951631F5323E300CA5971 /* FavoritePointsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1951661F5323E300CA5971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0BAFE61F51E2DD0038ACCD /* FavoritePoints */;
+			targetProxy = 6F1951651F5323E300CA5971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6F0BAFF31F51E2DD0038ACCD /* Main.storyboard */ = {
@@ -297,6 +441,32 @@
 			};
 			name = Release;
 		};
+		6F1951681F5323E300CA5971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LW3PL5B242;
+				INFOPLIST_FILE = FavoritePointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.PragmaticSoftware.FavoritePointsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavoritePoints.app/FavoritePoints";
+			};
+			name = Debug;
+		};
+		6F1951691F5323E300CA5971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LW3PL5B242;
+				INFOPLIST_FILE = FavoritePointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.PragmaticSoftware.FavoritePointsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavoritePoints.app/FavoritePoints";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -316,16 +486,26 @@
 				6F0BB0031F51E2DD0038ACCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1951671F5323E300CA5971 /* Build configuration list for PBXNativeTarget "FavoritePointsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1951681F5323E300CA5971 /* Debug */,
+				6F1951691F5323E300CA5971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6F0BAFF61F51E2DD0038ACCD /* FavoritePoints.xcdatamodeld */ = {
+		6F19517C1F55984500CA5971 /* FavoritePoints.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6F0BAFF71F51E2DD0038ACCD /* FavoritePoints.xcdatamodel */,
+				6F19517D1F55984500CA5971 /* FavoritePoints.xcdatamodel */,
 			);
-			currentVersion = 6F0BAFF71F51E2DD0038ACCD /* FavoritePoints.xcdatamodel */;
+			currentVersion = 6F19517D1F55984500CA5971 /* FavoritePoints.xcdatamodel */;
 			path = FavoritePoints.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
