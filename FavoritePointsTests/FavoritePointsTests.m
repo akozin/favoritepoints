@@ -71,16 +71,4 @@
     [self waitForExpectations:@[expectation] timeout:5];
 }
 
-//- (void)testAddNewPoint {
-//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-//    PSFAddPointViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"PSFAddPointVC"];
-//    MKPointAnnotation *pointAnnotation = [MKPointAnnotation new];
-//    pointAnnotation.coordinate = CLLocationCoordinate2DMake(50.123, 37.123);
-//    vc.pointAnnotation = pointAnnotation;
-//    NSString *titleText = @"Title";
-//    NSString *descriptionText = @"Description";
-//    vc.titleTextField.text = titleText;
-//    vc.descriptionTextView.text = descriptionText;
-//}
-
 @end
