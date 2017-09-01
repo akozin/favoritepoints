@@ -28,20 +28,22 @@
     self.mapView.delegate = self;
     [self loadSavedPoints];
     locationManager = [PSFLocationManager sharedManager];
+    PSFMapViewController * __weak weakSelf = self;
     [locationManager getCurrentLocationWithCompletionHandler:^(CLLocation *location) {
         MKCoordinateSpan span = MKCoordinateSpanMake(0.009, 0.009);
         MKCoordinateRegion region = MKCoordinateRegionMake(location.coordinate, span);
-        [_mapView setRegion:region animated:YES];
+        [weakSelf.mapView setRegion:region animated:YES];
     }];
 }
 
 #pragma mark - Actions
 
 - (IBAction)moveToCurrentLocation:(UIButton *)sender {
+    PSFMapViewController * __weak weakSelf = self;
     [locationManager getCurrentLocationWithCompletionHandler:^(CLLocation *location) {
         MKCoordinateSpan span = MKCoordinateSpanMake(0.009, 0.009);
         MKCoordinateRegion region = MKCoordinateRegionMake(location.coordinate, span);
-        [_mapView setRegion:region animated:YES];
+        [weakSelf.mapView setRegion:region animated:YES];
     }];
 }
 

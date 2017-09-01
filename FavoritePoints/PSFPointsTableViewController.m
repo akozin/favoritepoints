@@ -31,11 +31,12 @@
     
     locationManager = [PSFLocationManager sharedManager];
     PSFModels *models = [PSFModels sharedModels];
+    PSFPointsTableViewController __weak *weakSelf = self;
     [models fetchAllPointsWithCompletionHandler:^(NSArray <PSFPoint *> *aPoints, NSManagedObjectContext *context) {
         [locationManager getCurrentLocationWithCompletionHandler:^(CLLocation *location) {
             currentLocation = location;
             points = aPoints;
-            [self.tableView reloadData];
+            [weakSelf.tableView reloadData];
         }];
     }];
 }
